@@ -1,0 +1,12 @@
+.container .row div {
+  border: 2px solid #f5f5f5;     
+  background-color: #6333b2;      
+  padding: 20px;               
+  margin-bottom: 15px;         
+  text-align: center;             
+  transition: border-color 0.3s; 
+}
+
+.container .row div:hover {
+  border-color: #0e0401; 
+}
