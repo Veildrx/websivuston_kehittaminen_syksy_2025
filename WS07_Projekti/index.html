@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Lexun Oy - Your trusted partner for quality products. Explore our collection and discover what we have to offer.">
+    <title>Index.html</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <script src="index.js" defer ></script>
+</head>
+<body>
+    <section class="navbar">
+        <h4>LEXUN</h4>
+        <a href="#">Home</a>
+        <a href="second.html">Collection</a>
+        <a href="third.html">Contact</a>
+        <a href="fourth.html">About</a>
+    </section>
+
+    <div class="hero-section">
+        <h1 class="hero-title">Timeless Elegance</h1>
+        <p class="hero-subtitle">Where Precision Meets Mystique</p>
+    </div>
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide active">
+                <img src="images/image.png" alt="Luxury Watch 1">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Master Collection</h2>
+                    <p class="slide-text">Crafted for the extraordinary</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/image1.png" alt="Luxury Watch 2">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Heritage Series</h2>
+                    <p class="slide-text">Legacy of precision</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/seikowatch.jpg" alt="Seiko Watch 1">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Ocean Depths</h2>
+                    <p class="slide-text">Engineered for adventure</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/seikowatch1.jpg" alt="Seiko Watch 2">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Midnight Edition</h2>
+                    <p class="slide-text">Elegance in darkness</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/seikowatch3.jpg" alt="Seiko Watch 3">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Celestial Guard</h2>
+                    <p class="slide-text">Where time transcends</p>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="images/seikowatch4.jpg" alt="Seiko Watch 4">
+                <div class="slide-overlay">
+                    <h2 class="slide-title">Elite Chronograph</h2>
+                    <p class="slide-text">Perfect to the second</p>
+                </div>
+            </div>
+        </div>
+        
+        <button class="slider-btn prev" onclick="changeSlide(-1)">&#10094;</button>
+        <button class="slider-btn next" onclick="changeSlide(1)">&#10095;</button>
+        
+        <div class="slider-dots">
+            <span class="dot active" onclick="currentSlide(0)"></span>
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+
+        </div>
+    </div>
+
+</body>
+</html>
